@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-public class ViajemEntity {
+public class ViagemEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +19,7 @@ public class ViajemEntity {
 
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private StatusViajem status;
+    private StatusViagem status;
 
     @ManyToOne
     @JoinColumn(name = "viajante_id")

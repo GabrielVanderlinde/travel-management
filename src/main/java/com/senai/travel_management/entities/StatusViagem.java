@@ -1,6 +1,6 @@
 package com.senai.travel_management.entities;
 
-public enum StatusViajem {
+public enum StatusViagem {
     AGENDADADA,
     EM_ANDAMENTO,
     CONCLUIDA,
