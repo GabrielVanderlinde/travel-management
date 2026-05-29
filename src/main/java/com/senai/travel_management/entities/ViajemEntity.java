@@ -1,6 +1,5 @@
 package com.senai.travel_management.entities;
 
-import ch.qos.logback.core.status.Status;
 import jakarta.persistence.*;
 
 import java.util.Date;
